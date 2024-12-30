@@ -1,470 +1,474 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>고디바</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="main.css" />
-    <script src="main.js"></script>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>고디바</title>
+  <link rel="icon" href="image/godiva.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js" defer></script>
+</head>
+
+<body>
   <button id="top_btn" aria-label="맨 위로 이동">
-  <a href="#"></a>
+    <a href="#"></a>
   </button>
-    <header>
-      <nav id="header_top" class="container" aria-label="유틸리티 메뉴">
-        <ul id="header_top_left">
-          <li><a href="#">매장안내</a></li>
-          <li><a href="#">멤버쉽</a></li>
+  <header>
+    <nav id="header_top" class="container" aria-label="유틸리티 메뉴">
+      <ul id="header_top_left">
+        <li><a href="#">매장안내</a></li>
+        <li><a href="#">멤버쉽</a></li>
+      </ul>
+      <h1 class="logo"><a href="#">고디바 GODIVA</a></h1>
+      <div id="header_top_right">
+        <ul id="login_menu">
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
         </ul>
-        <h1 class="logo"><a href="#">고디바 GODIVA</a></h1>
-        <div id="header_top_right">
-          <ul id="login_menu">
-            <li><a href="#">로그인</a></li>
-            <li><a href="#">회원가입</a></li>
-          </ul>
-          <ul id="cart_menu">
-            <li><a href="#">최근 본 상품</a></li>
-            <li><a href="#">CART</a></li>
-          </ul>
-        </div>
-      </nav>
-      <nav id="category" class="container" aria-label="메인 카테고리">
-        <ul>
-          <li>
-            <a href="sub.html">Gift</a>
-            <div class="sub_menu">
-              <ul>
-                <li><a href="sub.html">베스트 셀러</a></li>
-                <li><a href="sub.html">1~2만원 대 선물</a></li>
-                <li><a href="sub.html">3~4만원 대 선물</a></li>
-                <li><a href="sub.html">5만원 이상</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="sub.html">Chocolate</a>
-            <div class="sub_menu">
-              <ul>
-                <li><a href="sub.html">전체 상품</a></li>
-                <li><a href="sub.html">시즌 한정</a></li>
-                <li><a href="sub.html">바</a></li>
-                <li><a href="sub.html">클래식 골드</a></li>
-                <li><a href="sub.html">레전데어 트뤼프</a></li>
-                <li><a href="sub.html">펄</a></li>
-                <li><a href="sub.html">골드 디스커버리</a></li>
-                <li><a href="sub.html">까레 어쏘트먼트</a></li>
-                <li><a href="sub.html">프레첼</a></li>
-                <li><a href="sub.html">하트 오브 골드</a></li>
-                <li><a href="sub.html">지큐브</a></li>
-                <li><a href="sub.html">비스킷</a></li>
-                <li><a href="sub.html">그랑 플라스</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="sub.html">Cake & Dessert</a>
-            <div class="sub_menu">
-              <ul>
-                <li><a href="sub.html">케이크</a></li>
-                <li><a href="sub.html">브라우니 & 마카롱</a></li>
-                <li><a href="sub.html">그라운드 커피</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="sub.html">Godiva Menu</a>
-            <div class="sub_menu">
-              <ul>
-                <li><a href="sub.html">초콜렉사</a></li>
-                <li><a href="sub.html">소프트 아이스크림</a></li>
-                <li><a href="sub.html">커피 & 음료</a></li>
-                <li><a href="sub.html">디저트</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="sub.html">News & Event</a>
-            <div class="sub_menu">
-              <ul>
-                <li><a href="sub.html">공지사항</a></li>
-                <li><a href="sub.html">미디어</a></li>
-                <li><a href="sub.html">이벤트</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="sub.html">About GODIVA</a>
-            <div class="sub_menu">
-              <ul>
-                <li><a href="sub.html">GODIVA 역사</a></li>
-                <li><a href="sub.html">GODIVA 기원</a></li>
-                <li><a href="sub.html">GODIVA 초콜릿</a></li>
-                <li><a href="sub.html">GODIVA 쉐프</a></li>
-                <li><a href="sub.html">GODIVA 책임</a></li>
-                <li><a href="sub.html">GODIVA 매장</a></li>
-                <li><a href="sub.html">멤버쉽 소개</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="sub.html">Godiva Cafe</a>
-            <div class="sub_menu" id="sub_menu_cafe">
-              <ul>
-                <li><a href="sub.html">고디바 카페 스토리</a></li>
-                <li><a href="sub.html">카페</a></li>
-                <li><a href="sub.html">디저트 코스바</a></li>
-                <li>
-                  <a href="sub.html">
-                    <img
-                      src="image/sub_menu.jpg"
-                      alt="박준우의 초콜릿 익스피리언스 코스"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="sub.html">Godiva Bakery</a>
-            <div class="sub_menu">
-              <ul>
-                <li><a href="sub.html">GODIVA BAKERY</a></li>
-                <li><a href="sub.html">베이커리</a></li>
-                <li><a href="sub.html">소프트 아이스크림 빵</a></li>
-                <li><a href="sub.html">딥트 프루츠 & 음료</a></li>
-              </ul>
-            </div>
-          </li>
-          <li id="search_menu"><a href="sub.html"></a></li>
+        <ul id="cart_menu">
+          <li><a href="#">최근 본 상품</a></li>
+          <li><a href="#">CART</a></li>
         </ul>
-      </nav>
-      <div id="header_bottom">
-        <p>
-          <a href="#">온라인 단독 더블 포인트 적립</a> ·
-          <a href="#">고디바 베이커리 출시</a>
-        </p>
       </div>
-    </header>
-    <main>
-      <div id="slider">
-        <ul>
-          <li><a href="#">레전데어 트뤼프 컬렉션</a></li>
-          <li><a href="#">일상 속 진한 달콤함, 고디바 베이커리</a></li>
-          <li><a href="#">고디바 그랑플라스 컬렉션</a></li>
-          <li><a href="#">솔티 카라멜 초콜릿 케이크</a></li>
-        </ul>
-        <div id="slider_btn">
-          <span></span>
-          <span></span>
-        </div>
+    </nav>
+    <nav id="category" class="container" aria-label="메인 카테고리">
+      <ul>
+        <li>
+          <a href="sub.html">Gift</a>
+          <div class="sub_menu">
+            <ul>
+              <li><a href="sub.html">베스트 셀러</a></li>
+              <li><a href="sub.html">1~2만원 대 선물</a></li>
+              <li><a href="sub.html">3~4만원 대 선물</a></li>
+              <li><a href="sub.html">5만원 이상</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="sub.html">Chocolate</a>
+          <div class="sub_menu">
+            <ul>
+              <li><a href="sub.html">전체 상품</a></li>
+              <li><a href="sub.html">시즌 한정</a></li>
+              <li><a href="sub.html">바</a></li>
+              <li><a href="sub.html">클래식 골드</a></li>
+              <li><a href="sub.html">레전데어 트뤼프</a></li>
+              <li><a href="sub.html">펄</a></li>
+              <li><a href="sub.html">골드 디스커버리</a></li>
+              <li><a href="sub.html">까레 어쏘트먼트</a></li>
+              <li><a href="sub.html">프레첼</a></li>
+              <li><a href="sub.html">하트 오브 골드</a></li>
+              <li><a href="sub.html">지큐브</a></li>
+              <li><a href="sub.html">비스킷</a></li>
+              <li><a href="sub.html">그랑 플라스</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="sub.html">Cake & Dessert</a>
+          <div class="sub_menu">
+            <ul>
+              <li><a href="sub.html">케이크</a></li>
+              <li><a href="sub.html">브라우니 & 마카롱</a></li>
+              <li><a href="sub.html">그라운드 커피</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="sub.html">Godiva Menu</a>
+          <div class="sub_menu">
+            <ul>
+              <li><a href="sub.html">초콜렉사</a></li>
+              <li><a href="sub.html">소프트 아이스크림</a></li>
+              <li><a href="sub.html">커피 & 음료</a></li>
+              <li><a href="sub.html">디저트</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="sub.html">News & Event</a>
+          <div class="sub_menu">
+            <ul>
+              <li><a href="sub.html">공지사항</a></li>
+              <li><a href="sub.html">미디어</a></li>
+              <li><a href="sub.html">이벤트</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="sub.html">About GODIVA</a>
+          <div class="sub_menu">
+            <ul>
+              <li><a href="sub.html">GODIVA 역사</a></li>
+              <li><a href="sub.html">GODIVA 기원</a></li>
+              <li><a href="sub.html">GODIVA 초콜릿</a></li>
+              <li><a href="sub.html">GODIVA 쉐프</a></li>
+              <li><a href="sub.html">GODIVA 책임</a></li>
+              <li><a href="sub.html">GODIVA 매장</a></li>
+              <li><a href="sub.html">멤버쉽 소개</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="sub.html">Godiva Cafe</a>
+          <div class="sub_menu" id="sub_menu_cafe">
+            <ul>
+              <li><a href="sub.html">고디바 카페 스토리</a></li>
+              <li><a href="sub.html">카페</a></li>
+              <li><a href="sub.html">디저트 코스바</a></li>
+              <li>
+                <a href="sub.html">
+                  <img src="image/sub_menu.jpg" alt="박준우의 초콜릿 익스피리언스 코스" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="sub.html">Godiva Bakery</a>
+          <div class="sub_menu">
+            <ul>
+              <li><a href="sub.html">GODIVA BAKERY</a></li>
+              <li><a href="sub.html">베이커리</a></li>
+              <li><a href="sub.html">소프트 아이스크림 빵</a></li>
+              <li><a href="sub.html">딥트 프루츠 & 음료</a></li>
+            </ul>
+          </div>
+        </li>
+        <li id="search_menu"><a href="sub.html"></a></li>
+      </ul>
+    </nav>
+    <div id="header_bottom">
+      <p>
+        <a href="#">온라인 단독 더블 포인트 적립</a> ·
+        <a href="#">고디바 베이커리 출시</a>
+      </p>
+    </div>
+  </header>
+  <main>
+    <div id="slider" class="swiper">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide"><a href="#"><img src="image/slider1.png" alt="레전데어 트뤼프 컬렉션"></a></li>
+        <li class="swiper-slide"><a href="#"><img src="image/slider2.jpg" alt="일상 속 진한 달콤함, 고디바 베이커리"></a></li>
+        <li class="swiper-slide"><a href="#"><img src="image/slider3.jpg" alt="고디바 그랑플라스 컬렉션"></a></li>
+        <li class="swiper-slide"><a href="#"><img src="image/slider4.jpg" alt="솔티 카라멜 초콜릿 케이크"></a></li>
+      </ul>
+      <div id="slider_btn">
+        <span class="button-prev"></span>
+        <span class="button-next"></span>
       </div>
-      <div id="con1" class="container">
-        <h1 class="con_title">THE BEST ITEMS</h1>
-        <h2 class="con_subtitle">고디바의 베스트 상품들을 만나보세요.</h2>
-        <div id="con1_wrap">
-          <div class="con1_box">
-            <div class="con1_img"><a href="#"></a></div>
-            <p><a href="#">클래식 골드 8개입</a></p>
-            <div class="con1_btn">
-              <span><a href="#"></a></span>
-              <span><a href="#"></a></span>
-            </div>
+    </div>
+    <section id="con1" class="container">
+      <h1 class="con_title">THE BEST ITEMS</h1>
+      <h2 class="con_subtitle">고디바의 베스트 상품들을 만나보세요.</h2>
+      <div id="con1_wrap">
+        <div class="con1_box">
+          <div class="con1_img"><a href="#"></a></div>
+          <p><a href="#">클래식 골드 8개입</a></p>
+          <div class="con1_btn">
+            <span><a href="#"></a></span>
+            <span><a href="#"></a></span>
           </div>
-          <div class="con1_box">
-            <div class="con1_img"><a href="#"></a></div>
-            <p><a href="#">까레 어쏘트먼트 50% 16개입</a></p>
-            <div class="con1_btn">
-              <span><a href="#"></a></span>
-              <span><a href="#"></a></span>
-            </div>
-            <span class="item_label">BEST<br />SELLER</span>
+        </div>
+        <div class="con1_box">
+          <div class="con1_img"><a href="#"></a></div>
+          <p><a href="#">까레 어쏘트먼트 50% 16개입</a></p>
+          <div class="con1_btn">
+            <span><a href="#"></a></span>
+            <span><a href="#"></a></span>
           </div>
-          <div class="con1_box">
-            <div class="con1_img"><a href="#"></a></div>
-            <p><a href="#">펄 밀크 초콜릿</a></p>
-            <div class="con1_btn">
-              <span><a href="#"></a></span>
-              <span><a href="#"></a></span>
-            </div>
+          <span class="item_label">BEST<br />SELLER</span>
+        </div>
+        <div class="con1_box">
+          <div class="con1_img"><a href="#"></a></div>
+          <p><a href="#">펄 밀크 초콜릿</a></p>
+          <div class="con1_btn">
+            <span><a href="#"></a></span>
+            <span><a href="#"></a></span>
           </div>
-          <div class="con1_box">
-            <div class="con1_img"><a href="#"></a></div>
-            <p><a href="#">민트 다크 펄 초콜릿</a></p>
-            <div class="con1_btn">
-              <span><a href="#"></a></span>
-              <span><a href="#"></a></span>
-            </div>
+        </div>
+        <div class="con1_box">
+          <div class="con1_img"><a href="#"></a></div>
+          <p><a href="#">민트 다크 펄 초콜릿</a></p>
+          <div class="con1_btn">
+            <span><a href="#"></a></span>
+            <span><a href="#"></a></span>
           </div>
         </div>
       </div>
-      <div id="con2" class="container">
-        <h1 class="con_title">GODIVA MENU & EVENT</h1>
-        <h2 class="con_subtitle">고디바의 메뉴와 이벤트</h2>
-        <div id="con2_wrap">
-          <div class="con2_box">
-            <div class="con2_img"></div>
-            <div class="con2_text">
-              <h3>고디바 신규회원 10% 할인<br />+ 2,500 P 혜택</h3>
-              <p>회원님만의 특별한 혜택을 받아보세요</p>
-            </div>
+    </section>
+    <section id="con2" class="container">
+      <h1 class="con_title">GODIVA MENU & EVENT</h1>
+      <h2 class="con_subtitle">고디바의 메뉴와 이벤트</h2>
+      <div id="con2_wrap">
+        <div class="con2_box">
+          <div class="con2_img"></div>
+          <div class="con2_text">
+            <h3>고디바 신규회원 10% 할인<br />+ 2,500 P 혜택</h3>
+            <p>회원님만의 특별한 혜택을 받아보세요</p>
           </div>
-          <div class="con2_box">
-            <div class="con2_img"></div>
-            <div class="con2_text">
-              <h3>고디바 베스트 아이템<br />BEST ITEM</h3>
-              <p>고디바의 베스트 상품을 만나보세요</p>
-            </div>
+        </div>
+        <div class="con2_box">
+          <div class="con2_img"></div>
+          <div class="con2_text">
+            <h3>고디바 베스트 아이템<br />BEST ITEM</h3>
+            <p>고디바의 베스트 상품을 만나보세요</p>
           </div>
-          <div class="con2_box">
-            <div class="con2_img"></div>
-            <div class="con2_text">
-              <h3>
-                고디바 그랑플라스 컬렉션<br />
-                Grand Place
-              </h3>
+        </div>
+        <div class="con2_box">
+          <div class="con2_img"></div>
+          <div class="con2_text">
+            <h3>
+              고디바 그랑플라스 컬렉션<br />
+              Grand Place
+            </h3>
+            <p>
+              고디바의 다양한 시그니처 초콜릿<br />
+              한번에 즐길 수 있는 프리미엄 컬렉션
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="con3" class="container">
+      <ul id="con3_wrap">
+        <li class="con3_img">
+          <a href="#">
+            <div class="con3_title">
+              <h3>클래식 골드</h3>
+              <span></span>
+              <p>화려한 디자인과 다양한 맛의 고디바 시그니처 컬렉션</p>
+            </div>
+          </a>
+        </li>
+        <li class="con3_img">
+          <a href="#">
+            <div class="con3_title">
+              <h3>레전데어 트뤼프</h3>
+              <span></span>
+              <p>한 입 크기의 고급스러운 초콜릿</p>
+            </div>
+          </a>
+        </li>
+        <li class="con3_img">
+          <a href="#">
+            <div class="con3_title">
+              <h3>디저트&커피</h3>
+              <span></span>
+              <p>고디바 프리미엄 디저트와 스페셜티 원두 로스팅 커피</p>
+            </div>
+          </a>
+        </li>
+        <li class="con3_img">
+          <a href="#">
+            <div class="con3_title">
+              <h3>아이스크림</h3>
+              <span></span>
+              <p>부드러운 텍스처의 깊고 진한 아이스크림</p>
+            </div>
+          </a>
+        </li>
+        <li class="con3_img">
+          <a href="#">
+            <div class="con3_title">
+              <h3>초콜렉사</h3>
+              <span></span>
+              <p>초콜릿을 직접 갈아만든 고디바 리얼 초콜릿 음료</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section id="con4">
+      <h1 class="con_title">SHOW US HOW YOU SHARE THE LOVE #GODIVA</h1>
+      <h2 class="con_subtitle">고디바의 사랑을 공유하세요</h2>
+      <div id="con4_wrap">
+        <div id="con4_right">
+          <a href="#">
+            <div class="con4_text con4_big_text">
+              <p><span></span>20241015</p>
               <p>
-                고디바의 다양한 시그니처 초콜릿<br />
-                한번에 즐길 수 있는 프리미엄 컬렉션
+                #godiva #chocolate #고디바 #초콜릿 #goldmomentwithgodiva
+                #골든모먼트 #오상욱 #까레어쏘트먼트 #수능 #수능초콜릿
+                #오늘은고디바​
               </p>
             </div>
-          </div>
+          </a>
         </div>
-      </div>
-      <div id="con3" class="container">
-        <ul id="con3_wrap">
-          <li class="con3_img">
-            <a href="#">
-              <div class="con3_title">
-                <h3>클래식 골드</h3>
-                <span></span>
-                <p>화려한 디자인과 다양한 맛의 고디바 시그니처 컬렉션</p>
-              </div>
-            </a>
-          </li>
-          <li class="con3_img">
-            <a href="#">
-              <div class="con3_title">
-                <h3>레전데어 트뤼프</h3>
-                <span></span>
-                <p>한 입 크기의 고급스러운 초콜릿</p>
-              </div>
-            </a>
-          </li>
-          <li class="con3_img">
-            <a href="#">
-              <div class="con3_title">
-                <h3>디저트&커피</h3>
-                <span></span>
-                <p>고디바 프리미엄 디저트와 스페셜티 원두 로스팅 커피</p>
-              </div>
-            </a>
-          </li>
-          <li class="con3_img">
-            <a href="#">
-              <div class="con3_title">
-                <h3>아이스크림</h3>
-                <span></span>
-                <p>부드러운 텍스처의 깊고 진한 아이스크림</p>
-              </div>
-            </a>
-          </li>
-          <li class="con3_img">
-            <a href="#">
-              <div class="con3_title">
-                <h3>초콜렉사</h3>
-                <span></span>
-                <p>초콜릿을 직접 갈아만든 고디바 리얼 초콜릿 음료</p>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div id="con4">
-        <h1 class="con_title">SHOW US HOW YOU SHARE THE LOVE #GODIVA</h1>
-        <h2 class="con_subtitle">고디바의 사랑을 공유하세요</h2>
-        <div id="con4_wrap">
-          <div id="con4_right">
-            <a href="#">
-              <div class="con4_text con4_big_text">
-                <p><span></span>20241015</p>
-                <p>
-                  #godiva #chocolate #고디바 #초콜릿 #goldmomentwithgodiva
-                  #골든모먼트 #오상욱 #까레어쏘트먼트 #수능 #수능초콜릿
-                  #오늘은고디바​
-                </p>
-              </div>
-            </a>
-          </div>
-          <div id="con4_left">
-            <ul id="con4_left_top">
-              <li class="con4_img">
-                <a href="#">
-                  <div class="con4_text con4_small_text">
-                    <p><span></span>20240806</p>
-                    <p>
-                      #godiva #chocolate #고디바 #초콜릿 #오늘은고디바
-                      #고디바베이커리 #YourDailyBakery #고디빵 #초콜릿빵 #소라빵
-                      #고디바빵
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li class="con4_img">
-                <a href="#">
-                  <div class="con4_text con4_small_text">
-                    <p><span></span>20240806</p>
-                    <p>
-                      #godiva #chocolate #고디바 #초콜릿 #오늘은고디바
-                      #고디바베이커리 #YourDailyBakery #고디빵 #초콜릿빵 #소라빵
-                      #고디바빵
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li class="con4_img">
-                <a href="#">
-                  <div class="con4_text con4_small_text">
-                    <p><span></span>20240806</p>
-                    <p>
-                      #godiva #chocolate #고디바 #초콜릿 #오늘은고디바
-                      #고디바베이커리 #YourDailyBakery #고디빵 #초콜릿빵 #소라빵
-                      #고디바빵
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li class="con4_img">
-                <a href="#">
-                  <div class="con4_text con4_small_text">
-                    <p><span></span>20240806</p>
-                    <p>
-                      #godiva #chocolate #고디바 #초콜릿 #오늘은고디바
-                      #고디바베이커리 #YourDailyBakery #고디빵 #초콜릿빵 #소라빵
-                      #고디바빵
-                    </p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-            <ul id="con4_left_bottom">
-              <li class="con4_img">
-                <a href="#">
-                  <div class="con4_text con4_small_text">
-                    <p><span></span>20240829</p>
-                    <p>
-                      #godiva #chocolate #고디바 #초콜릿 #뱅쇼 #가을에어울리는
-                      #오늘은고디바​
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li class="con4_img">
-                <a href="#">
-                  <div class="con4_text con4_small_text">
-                    <p><span></span>20240829</p>
-                    <p>
-                      #godiva #chocolate #고디바 #초콜릿 #품격있는 #오늘은고디바
-                      #그랑플라스​s
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li class="con4_img">
-                <a href="#">
-                  <div class="con4_text con4_small_text">
-                    <p><span></span>20240829</p>
-                    <p>
-                      #godiva #고디바 #가을 #시즌한정 #오늘은고디바
-                      #마롱초콜릿초콜렉사
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li class="con4_img">
-                <a href="#">
-                  <div class="con4_text con4_small_text">
-                    <p><span></span>20240829</p>
-                    <p>
-                      #godiva #chocolate #고디바 #초콜릿 #집에서도즐기는
-                      #오늘은고디바 #고디바커피 #그라운드커피
-                    </p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <footer>
-        <div id="footer_top" class="container">
-          <h1 class="footer_logo">고디바 GODIVA</h1>
-          <ul>
-            <li>
-              SITEMAP
-              <ul class="footer_sub">
-                <li><a href="#">사이트맵</a></li>
-                <li><a href="#">개인정보 처리방침</a></li>
-                <li><a href="#">이용 약관</a></li>
-                <li><a href="#">마케팅 제휴/매장 오픈</a></li>
-              </ul>
+        <div id="con4_left">
+          <ul id="con4_left_top">
+            <li class="con4_img">
+              <a href="#">
+                <div class="con4_text con4_small_text">
+                  <p><span></span>20240806</p>
+                  <p>
+                    #godiva #chocolate #고디바 #초콜릿 #오늘은고디바
+                    #고디바베이커리 #YourDailyBakery #고디빵 #초콜릿빵 #소라빵
+                    #고디바빵
+                  </p>
+                </div>
+              </a>
             </li>
-            <li>
-              CUSTOMER SERVICE
-              <ul class="footer_sub">
-                <li><a href="#">고객센터</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">1:1 문의</a></li>
-                <li><a href="#">주문/ 배송/ 대량구매</a></li>
-              </ul>
+            <li class="con4_img">
+              <a href="#">
+                <div class="con4_text con4_small_text">
+                  <p><span></span>20240806</p>
+                  <p>
+                    #godiva #chocolate #고디바 #초콜릿 #오늘은고디바
+                    #고디바베이커리 #YourDailyBakery #고디빵 #초콜릿빵 #소라빵
+                    #고디바빵
+                  </p>
+                </div>
+              </a>
             </li>
-            <li>
-              SITEMAP
-              <ul class="footer_sub footer_time">
-                <li><span></span>TEL. 080-759-7700</li>
-                <li><span></span>평일 10:00 ~ 17:00</li>
-                <li>(점심시간 12:00 ~ 13:00)</li>
-                <li>토, 일, 공휴일 휴무</li>
-              </ul>
+            <li class="con4_img">
+              <a href="#">
+                <div class="con4_text con4_small_text">
+                  <p><span></span>20240806</p>
+                  <p>
+                    #godiva #chocolate #고디바 #초콜릿 #오늘은고디바
+                    #고디바베이커리 #YourDailyBakery #고디빵 #초콜릿빵 #소라빵
+                    #고디바빵
+                  </p>
+                </div>
+              </a>
             </li>
-            <li>
-              CONNECT WITH US
-              <ul id="footer_sns">
-                <li><a href="#">페이스북</a></li>
-                <li><a href="#">인스타그램</a></li>
-                <li><a href="#">카카오톡</a></li>
-                <li><a href="#">유튜브</a></li>
-              </ul>
-              <select name="family" id="footer_family">
-                <option value="option1">패밀리 사이트</option>
-                <option value="option2">더바디샵</option>
-                <option value="option3">홀랜드앤바렛</option>
-                <option value="option4">위타드 오브 첼시</option>
-                <option value="option5">피에르 마르콜리니</option>
-              </select>
+            <li class="con4_img">
+              <a href="#">
+                <div class="con4_text con4_small_text">
+                  <p><span></span>20240806</p>
+                  <p>
+                    #godiva #chocolate #고디바 #초콜릿 #오늘은고디바
+                    #고디바베이커리 #YourDailyBakery #고디빵 #초콜릿빵 #소라빵
+                    #고디바빵
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <ul id="con4_left_bottom">
+            <li class="con4_img">
+              <a href="#">
+                <div class="con4_text con4_small_text">
+                  <p><span></span>20240829</p>
+                  <p>
+                    #godiva #chocolate #고디바 #초콜릿 #뱅쇼 #가을에어울리는
+                    #오늘은고디바​
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="con4_img">
+              <a href="#">
+                <div class="con4_text con4_small_text">
+                  <p><span></span>20240829</p>
+                  <p>
+                    #godiva #chocolate #고디바 #초콜릿 #품격있는 #오늘은고디바
+                    #그랑플라스​s
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="con4_img">
+              <a href="#">
+                <div class="con4_text con4_small_text">
+                  <p><span></span>20240829</p>
+                  <p>
+                    #godiva #고디바 #가을 #시즌한정 #오늘은고디바
+                    #마롱초콜릿초콜렉사
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="con4_img">
+              <a href="#">
+                <div class="con4_text con4_small_text">
+                  <p><span></span>20240829</p>
+                  <p>
+                    #godiva #chocolate #고디바 #초콜릿 #집에서도즐기는
+                    #오늘은고디바 #고디바커피 #그라운드커피
+                  </p>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
-        <span id="footer_line"></span>
-        <div id="footer_bottom" class="container">
-          <ul>
-            <li>
-              (주)비에스케이코퍼레이션 | 대표이사 : 오미경,나상도 | 대표전화
-              080-759-7700 | 팩스 02-759-0788
-            </li>
-            <li>
-              이메일 : info@godiva.kr ㅣ 주소 : 서울특별시 강남구 학동로
-              401(청담동) 금하빌딩 13층
-            </li>
-            <li>
-              사업자등록번호 116-81-62784 [사업자정보확인] ㅣ 통신판매업신고번호
-              제 2010-서울강남-02017호 ㅣ 개인정보보호책임자 :
-              나상도(privacy@bskco.kr)
-            </li>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div id="footer_top" class="container">
+      <h1 class="footer_logo">고디바 GODIVA</h1>
+      <ul>
+        <li>
+          SITEMAP
+          <ul class="footer_sub">
+            <li><a href="#">사이트맵</a></li>
+            <li><a href="#">개인정보 처리방침</a></li>
+            <li><a href="#">이용 약관</a></li>
+            <li><a href="#">마케팅 제휴/매장 오픈</a></li>
           </ul>
-        </div>
-      </footer>
-    </main>
-  </body>
+        </li>
+        <li>
+          CUSTOMER SERVICE
+          <ul class="footer_sub">
+            <li><a href="#">고객센터</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">1:1 문의</a></li>
+            <li><a href="#">주문/ 배송/ 대량구매</a></li>
+          </ul>
+        </li>
+        <li>
+          SITEMAP
+          <ul class="footer_sub footer_time">
+            <li><span></span>TEL. 080-759-7700</li>
+            <li><span></span>평일 10:00 ~ 17:00</li>
+            <li>(점심시간 12:00 ~ 13:00)</li>
+            <li>토, 일, 공휴일 휴무</li>
+          </ul>
+        </li>
+        <li>
+          CONNECT WITH US
+          <ul id="footer_sns">
+            <li><a href="#">페이스북</a></li>
+            <li><a href="#">인스타그램</a></li>
+            <li><a href="#">카카오톡</a></li>
+            <li><a href="#">유튜브</a></li>
+          </ul>
+          <select name="family" id="footer_family">
+            <option value="option1">패밀리 사이트</option>
+            <option value="option2">더바디샵</option>
+            <option value="option3">홀랜드앤바렛</option>
+            <option value="option4">위타드 오브 첼시</option>
+            <option value="option5">피에르 마르콜리니</option>
+          </select>
+        </li>
+      </ul>
+    </div>
+    <span id="footer_line"></span>
+    <div id="footer_bottom" class="container">
+      <ul>
+        <li>
+          (주)비에스케이코퍼레이션 | 대표이사 : 오미경,나상도 | 대표전화
+          080-759-7700 | 팩스 02-759-0788
+        </li>
+        <li>
+          이메일 : info@godiva.kr ㅣ 주소 : 서울특별시 강남구 학동로
+          401(청담동) 금하빌딩 13층
+        </li>
+        <li>
+          사업자등록번호 116-81-62784 [사업자정보확인] ㅣ 통신판매업신고번호
+          제 2010-서울강남-02017호 ㅣ 개인정보보호책임자 :
+          나상도(privacy@bskco.kr)
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
 </html>
