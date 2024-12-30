@@ -135,27 +135,27 @@ header #cart_menu > li:last-child > a::after {
   background-size: 130%;
   background-position: 50% 50%;
 }
-/* header>nav */
-header nav {
+/* header>#category */
+header #category {
   height: 57px;
 }
-header nav > ul {
+header #category > ul {
   width: 100%;
   height: 100%;
   position: relative;
 }
-header nav > ul > li:first-child {
+header #category > ul > li:first-child {
   box-sizing: border-box;
   padding: 0 25px;
 }
-header nav > ul > li {
+header #category > ul > li {
   padding: 0 14px;
   float: left;
   height: 100%;
   margin-right: 13px;
   text-align: center;
 }
-header nav > ul > li > a {
+header #category > ul > li > a {
   width: 100%;
   height: 100%;
   padding: 0 5px;
@@ -166,33 +166,33 @@ header nav > ul > li > a {
   color: #fff;
   box-sizing: border-box;
 }
-header nav > ul > li > a:hover {
+header #category > ul > li > a:hover {
   border-bottom: 2px solid #ceb372;
   padding-top: 2px;
   color: #ceb372;
 }
 /* float 밀림 방지  clear fix*/
-header nav > ul > li::after {
+header #category > ul > li::after {
   content: "";
   display: block;
   clear: both;
 }
-header nav > ul > #search_menu {
+header #category > ul > #search_menu {
   width: 56px;
   height: 56px;
   margin-right: 0;
   padding: 0 0 0 20px;
 }
-header nav > ul > #search_menu > a {
+header #category > ul > #search_menu > a {
   background: url(../image/icon/search.png) no-repeat;
   background-size: 60%;
   background-position: 50% 50%;
 }
-header nav > ul > #search_menu > a:hover {
+header #category > ul > #search_menu > a:hover {
   border: none;
 }
 
-/* nav sub_menu 스타일 시작 */
+/* #category sub_menu 스타일 시작 */
 
 .sub_menu {
   width: 1272px;
@@ -205,7 +205,7 @@ header nav > ul > #search_menu > a:hover {
   position: absolute;
   left: 0;
 }
-header nav > ul > li:hover .sub_menu {
+header #category > ul > li:hover .sub_menu {
   display: block;
 }
 .sub_menu > ul {
